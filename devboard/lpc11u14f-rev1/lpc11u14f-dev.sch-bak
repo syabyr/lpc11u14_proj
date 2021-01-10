@@ -1,0 +1,1046 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12101 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4500 3300 4200 3300
+Wire Wire Line
+	4200 3300 4200 3600
+Text Label 4500 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	10000 3200 10000 3300
+Wire Wire Line
+	10000 3300 10100 3300
+Wire Wire Line
+	10100 3300 10300 3300
+Wire Wire Line
+	10300 3300 10700 3300
+Wire Wire Line
+	10100 3200 10100 3300
+Wire Wire Line
+	9800 2600 9700 2600
+Wire Wire Line
+	9700 2600 9700 2300
+Wire Wire Line
+	9700 2300 10000 2300
+Wire Wire Line
+	10000 2300 10100 2300
+Wire Wire Line
+	10100 2300 10100 2400
+Wire Wire Line
+	10000 2400 10000 2300
+Wire Wire Line
+	10100 2300 10300 2300
+Wire Wire Line
+	10300 2300 10300 3300
+Connection ~ 10100 3300
+Connection ~ 10000 2300
+Connection ~ 10100 2300
+Connection ~ 10300 3300
+Text Label 10000 3200 0    10   ~ 0
+GND
+Wire Wire Line
+	10000 5000 10000 4800
+Wire Wire Line
+	10000 4800 10000 4100
+Wire Wire Line
+	10800 4600 10800 4800
+Wire Wire Line
+	10800 4800 10500 4800
+Wire Wire Line
+	10500 4800 10000 4800
+Wire Wire Line
+	10500 4600 10500 4800
+Connection ~ 10000 4800
+Connection ~ 10500 4800
+Text Label 10000 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	8500 3700 8500 3800
+Wire Wire Line
+	8500 3800 8500 3900
+Wire Wire Line
+	8700 3700 8700 3800
+Wire Wire Line
+	8700 3800 8500 3800
+Connection ~ 8500 3800
+Text Label 8500 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	8900 5500 8900 5300
+Wire Wire Line
+	8900 5300 8900 4900
+Wire Wire Line
+	8900 4900 8600 4900
+Wire Wire Line
+	8600 5300 8900 5300
+Wire Wire Line
+	9100 5300 8900 5300
+Connection ~ 8900 5300
+Text Label 9100 5300 0    50   ~ 0
+GND
+Wire Wire Line
+	800  3600 800  3400
+Wire Wire Line
+	800  3400 800  3200
+Wire Wire Line
+	800  3200 1400 3200
+Wire Wire Line
+	1400 3200 1500 3200
+Wire Wire Line
+	1500 3100 1400 3100
+Wire Wire Line
+	1400 3100 1400 3200
+Wire Wire Line
+	1500 3400 800  3400
+Connection ~ 1400 3200
+Connection ~ 800  3400
+Text Label 800  3600 0    10   ~ 0
+GND
+Wire Wire Line
+	8500 6600 8600 6600
+Wire Wire Line
+	8600 6600 8900 6600
+Wire Wire Line
+	8900 6600 8900 6900
+Wire Wire Line
+	8900 6900 8900 7000
+Wire Wire Line
+	8500 6900 8600 6900
+Wire Wire Line
+	8600 6900 8900 6900
+Wire Wire Line
+	8400 6300 8600 6300
+Wire Wire Line
+	8600 6300 8600 6600
+Wire Wire Line
+	8400 7200 8600 7200
+Wire Wire Line
+	8600 7200 8600 6900
+Connection ~ 8900 6900
+Connection ~ 8600 6600
+Connection ~ 8600 6900
+Text Label 8500 6600 0    10   ~ 0
+GND
+Wire Wire Line
+	1800 7000 1700 7000
+Text Label 1800 7000 0    50   ~ 0
+GND
+Wire Wire Line
+	1800 6900 1700 6900
+Text Label 1800 6900 0    50   ~ 0
+GND
+Wire Wire Line
+	1800 5200 1700 5200
+Text Label 1800 5200 0    50   ~ 0
+GND
+Wire Wire Line
+	1800 5100 1700 5100
+Text Label 1800 5100 0    50   ~ 0
+GND
+Wire Wire Line
+	3900 5100 3800 5100
+Text Label 3900 5100 0    50   ~ 0
+GND
+Wire Wire Line
+	3900 7000 3800 7000
+Text Label 3900 7000 0    50   ~ 0
+GND
+Wire Wire Line
+	4500 2900 4200 2900
+Text Label 4500 2900 0    10   ~ 0
+VCC
+Wire Wire Line
+	10300 3900 10400 3900
+Wire Wire Line
+	10400 3900 10400 3800
+Wire Wire Line
+	10400 3800 10300 3800
+Wire Wire Line
+	10400 3900 10500 3900
+Wire Wire Line
+	10500 3900 10600 3900
+Wire Wire Line
+	10600 3900 10600 3800
+Wire Wire Line
+	10500 4300 10500 4200
+Wire Wire Line
+	10500 4200 10500 3900
+Wire Wire Line
+	10800 4300 10800 4200
+Wire Wire Line
+	10800 4200 10500 4200
+Connection ~ 10400 3900
+Connection ~ 10500 3900
+Connection ~ 10500 4200
+Text Label 10300 3900 0    10   ~ 0
+VCC
+Wire Wire Line
+	7800 4900 7600 4900
+Wire Wire Line
+	7600 4900 7600 4800
+Wire Wire Line
+	7500 4900 7600 4900
+Connection ~ 7600 4900
+Text Label 7500 4900 2    50   ~ 0
+VCC
+Wire Wire Line
+	1300 2800 1300 3000
+Wire Wire Line
+	1300 3000 1500 3000
+Text Label 1300 2800 0    10   ~ 0
+VCC
+Wire Wire Line
+	7300 6900 7000 6900
+Wire Wire Line
+	7000 6900 7000 6600
+Wire Wire Line
+	7000 6600 7000 6500
+Wire Wire Line
+	7300 6600 7000 6600
+Connection ~ 7000 6600
+Text Label 7300 6900 0    10   ~ 0
+VCC
+Wire Wire Line
+	1800 6800 1700 6800
+Text Label 1800 6800 0    50   ~ 0
+VCC
+Wire Wire Line
+	1800 5300 1700 5300
+Text Label 1800 5300 0    50   ~ 0
+VCC
+Wire Wire Line
+	3900 5200 3800 5200
+Text Label 3900 5200 0    50   ~ 0
+VCC
+Wire Wire Line
+	3900 6900 3800 6900
+Text Label 3900 6900 0    50   ~ 0
+VCC
+Wire Wire Line
+	10300 5400 10600 5400
+Wire Wire Line
+	10600 5400 10600 6000
+Wire Wire Line
+	10300 5500 10300 5400
+Wire Wire Line
+	10300 5400 9700 5400
+Connection ~ 10300 5400
+Text Label 10300 5400 0    10   ~ 0
+VCC
+Wire Wire Line
+	4400 1200 4500 1200
+Text Label 4400 1200 2    50   ~ 0
+PIO0_0
+Wire Wire Line
+	2200 3400 2100 3400
+Text Label 2200 3400 0    50   ~ 0
+PIO0_0
+Wire Wire Line
+	7700 6600 7800 6600
+Wire Wire Line
+	7800 6600 7900 6600
+Wire Wire Line
+	8100 6300 7800 6300
+Wire Wire Line
+	7800 6300 7800 6600
+Wire Wire Line
+	7600 6300 7800 6300
+Connection ~ 7800 6600
+Connection ~ 7800 6300
+Text Label 7600 6300 2    50   ~ 0
+PIO0_0
+Wire Wire Line
+	1800 6300 1700 6300
+Text Label 1800 6300 0    50   ~ 0
+PIO0_0
+Wire Wire Line
+	4400 1300 4500 1300
+Text Label 4400 1300 2    50   ~ 0
+PIO0_1
+Wire Wire Line
+	7700 6900 7800 6900
+Wire Wire Line
+	7800 6900 7900 6900
+Wire Wire Line
+	8100 7200 7800 7200
+Wire Wire Line
+	7800 7200 7800 6900
+Wire Wire Line
+	7600 7200 7800 7200
+Connection ~ 7800 6900
+Connection ~ 7800 7200
+Text Label 7600 7200 2    50   ~ 0
+PIO0_1
+Wire Wire Line
+	1800 6400 1700 6400
+Text Label 1800 6400 0    50   ~ 0
+PIO0_1
+Wire Wire Line
+	4400 1400 4500 1400
+Text Label 4400 1400 2    50   ~ 0
+PIO0_2
+Wire Wire Line
+	1800 6600 1700 6600
+Text Label 1800 6600 0    50   ~ 0
+PIO0_2
+Wire Wire Line
+	3900 1500 4500 1500
+Text Label 4400 1500 2    50   ~ 0
+PIO0_3
+Wire Wire Line
+	3900 6700 3800 6700
+Text Label 3900 6700 0    50   ~ 0
+PIO0_3
+Wire Wire Line
+	4400 1600 4500 1600
+Text Label 4400 1600 2    50   ~ 0
+PIO0_4
+Wire Wire Line
+	3900 6600 3800 6600
+Text Label 3900 6600 0    50   ~ 0
+PIO0_4
+Wire Wire Line
+	4400 1700 4500 1700
+Text Label 4400 1700 2    50   ~ 0
+PIO0_5
+Wire Wire Line
+	3900 6500 3800 6500
+Text Label 3900 6500 0    50   ~ 0
+PIO0_5
+Wire Wire Line
+	4400 1800 4500 1800
+Text Label 4400 1800 2    50   ~ 0
+PIO0_6
+Wire Wire Line
+	3900 6300 3800 6300
+Text Label 3900 6300 0    50   ~ 0
+PIO0_6
+Wire Wire Line
+	9600 6200 9800 6200
+Text Label 9600 6200 2    50   ~ 0
+PIO0_6
+Wire Wire Line
+	4400 1900 4500 1900
+Text Label 4400 1900 2    50   ~ 0
+PIO0_7
+Wire Wire Line
+	7700 5300 7800 5300
+Text Label 7700 5300 2    50   ~ 0
+PIO0_7
+Wire Wire Line
+	3900 6200 3800 6200
+Text Label 3900 6200 0    50   ~ 0
+PIO0_7
+Wire Wire Line
+	4400 2000 4500 2000
+Text Label 4400 2000 2    50   ~ 0
+PIO0_8
+Wire Wire Line
+	3900 6100 3800 6100
+Text Label 3900 6100 0    50   ~ 0
+PIO0_8
+Wire Wire Line
+	4400 2100 4500 2100
+Text Label 4400 2100 2    50   ~ 0
+PIO0_9
+Wire Wire Line
+	3900 6000 3800 6000
+Text Label 3900 6000 0    50   ~ 0
+PIO0_9
+Wire Wire Line
+	4400 2200 4500 2200
+Text Label 4400 2200 2    50   ~ 0
+PIO0_10
+Wire Wire Line
+	2200 3100 2100 3100
+Text Label 2200 3100 0    50   ~ 0
+PIO0_10
+Wire Wire Line
+	3900 5900 3800 5900
+Text Label 3900 5900 0    50   ~ 0
+PIO0_10
+Wire Wire Line
+	4400 2300 4500 2300
+Text Label 4400 2300 2    50   ~ 0
+PIO0_11
+Wire Wire Line
+	3900 5700 3800 5700
+Text Label 3900 5700 0    50   ~ 0
+PIO0_11
+Wire Wire Line
+	4400 2400 4500 2400
+Text Label 4400 2400 2    50   ~ 0
+PIO0_12
+Wire Wire Line
+	3900 5600 3800 5600
+Text Label 3900 5600 0    50   ~ 0
+PIO0_12
+Wire Wire Line
+	4400 2500 4500 2500
+Text Label 4400 2500 2    50   ~ 0
+PIO0_13
+Wire Wire Line
+	2200 3200 2100 3200
+Text Label 2200 3200 0    50   ~ 0
+PIO0_13
+Wire Wire Line
+	3900 5500 3800 5500
+Text Label 3900 5500 0    50   ~ 0
+PIO0_13
+Wire Wire Line
+	4400 2600 4500 2600
+Text Label 4400 2600 2    50   ~ 0
+PIO0_14
+Wire Wire Line
+	3900 5400 3800 5400
+Text Label 3900 5400 0    50   ~ 0
+PIO0_14
+Wire Wire Line
+	4400 2700 4500 2700
+Text Label 4400 2700 2    50   ~ 0
+PIO0_15
+Wire Wire Line
+	2200 3000 2100 3000
+Text Label 2200 3000 0    50   ~ 0
+PIO0_15
+Wire Wire Line
+	1800 5500 1700 5500
+Text Label 1800 5500 0    50   ~ 0
+PIO0_15
+Wire Wire Line
+	8300 1200 8200 1200
+Text Label 8300 1200 0    50   ~ 0
+PIO0_16
+Wire Wire Line
+	1800 5600 1700 5600
+Text Label 1800 5600 0    50   ~ 0
+PIO0_16
+Wire Wire Line
+	8300 1300 8200 1300
+Text Label 8300 1300 0    50   ~ 0
+PIO0_17
+Wire Wire Line
+	1800 5900 1700 5900
+Text Label 1800 5900 0    50   ~ 0
+PIO0_17
+Wire Wire Line
+	8300 1400 8200 1400
+Text Label 8300 1400 0    50   ~ 0
+PIO0_18
+Wire Wire Line
+	1400 3300 1500 3300
+Text Label 1400 3300 2    50   ~ 0
+PIO0_18
+Wire Wire Line
+	1800 6000 1700 6000
+Text Label 1800 6000 0    50   ~ 0
+PIO0_18
+Wire Wire Line
+	8300 1500 8200 1500
+Text Label 8300 1500 0    50   ~ 0
+PIO0_19
+Wire Wire Line
+	2200 3300 2100 3300
+Text Label 2200 3300 0    50   ~ 0
+PIO0_19
+Wire Wire Line
+	1800 6100 1700 6100
+Text Label 1800 6100 0    50   ~ 0
+PIO0_19
+Wire Wire Line
+	8300 1600 8200 1600
+Text Label 8300 1600 0    50   ~ 0
+PIO0_20
+Wire Wire Line
+	1800 6500 1700 6500
+Text Label 1800 6500 0    50   ~ 0
+PIO0_20
+Wire Wire Line
+	8300 1700 8200 1700
+Text Label 8300 1700 0    50   ~ 0
+PIO0_21
+Wire Wire Line
+	3900 6400 3800 6400
+Text Label 3900 6400 0    50   ~ 0
+PIO0_21
+Wire Wire Line
+	8300 1800 8200 1800
+Text Label 8300 1800 0    50   ~ 0
+PIO0_22
+Wire Wire Line
+	3900 5800 3800 5800
+Text Label 3900 5800 0    50   ~ 0
+PIO0_22
+Wire Wire Line
+	8300 1900 8200 1900
+Text Label 8300 1900 0    50   ~ 0
+PIO0_23
+Wire Wire Line
+	1800 5700 1700 5700
+Text Label 1800 5700 0    50   ~ 0
+PIO0_23
+Wire Wire Line
+	8300 2000 8200 2000
+Text Label 8300 2000 0    50   ~ 0
+PIO1_15
+Wire Wire Line
+	1800 5800 1700 5800
+Text Label 1800 5800 0    50   ~ 0
+PIO1_15
+Wire Wire Line
+	8500 2300 8200 2300
+Wire Wire Line
+	8200 2400 8500 2400
+Wire Wire Line
+	9400 3000 9500 3000
+Wire Wire Line
+	9500 3000 9800 3000
+Wire Wire Line
+	9500 3000 9500 3800
+Wire Wire Line
+	9500 3800 9700 3800
+Text Label 9400 3000 2    50   ~ 0
+VBUS
+Connection ~ 9500 3000
+Wire Wire Line
+	3400 1500 3500 1500
+Text Label 3400 1500 2    50   ~ 0
+VBUS
+Wire Wire Line
+	1800 6700 1700 6700
+Text Label 1800 6700 0    50   ~ 0
+VBUS
+Wire Wire Line
+	1800 5400 1700 5400
+Text Label 1800 5400 0    50   ~ 0
+VBUS
+Wire Wire Line
+	3900 6800 3800 6800
+Text Label 3900 6800 0    50   ~ 0
+VBUS
+Wire Wire Line
+	3900 5300 3800 5300
+Text Label 3900 5300 0    50   ~ 0
+VBUS
+Wire Wire Line
+	8200 3300 8500 3300
+Wire Wire Line
+	8500 3400 8500 3300
+Connection ~ 8500 3300
+Wire Wire Line
+	8200 3000 8500 3000
+Wire Wire Line
+	8500 3000 8500 3100
+Wire Wire Line
+	8500 3000 8700 3000
+Wire Wire Line
+	8700 3000 8700 3400
+Connection ~ 8500 3000
+Wire Wire Line
+	8200 4900 8300 4900
+Wire Wire Line
+	8200 5300 8300 5300
+Wire Wire Line
+	1800 6200 1700 6200
+Text Label 1800 6200 0    50   ~ 0
+PIO1_19
+Wire Wire Line
+	8300 2100 8200 2100
+Text Label 8300 2100 0    50   ~ 0
+PIO1_19
+Wire Wire Line
+	10200 6200 10300 6200
+Wire Wire Line
+	10300 6200 10400 6200
+Wire Wire Line
+	10300 5900 10300 6200
+Connection ~ 10300 6200
+Wire Wire Line
+	10600 6400 10600 6500
+Wire Wire Line
+	9100 2300 8900 2300
+Text Label 9100 2300 0    50   ~ 0
+USBDM
+Wire Wire Line
+	9600 2900 9800 2900
+Text Label 9600 2900 2    50   ~ 0
+USBDM
+Wire Wire Line
+	9100 2400 8900 2400
+Text Label 9100 2400 0    50   ~ 0
+USBDP
+Wire Wire Line
+	9600 2800 9800 2800
+Text Label 9600 2800 2    50   ~ 0
+USBDP
+Wire Wire Line
+	10300 7000 10600 7000
+Wire Wire Line
+	10600 7000 10600 6900
+Text Label 10300 7000 2    50   ~ 0
+USBDP
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND1
+U 1 1 A7315E89
+P 4200 3700
+F 0 "#GND1" H 4200 3700 50  0001 C CNN
+F 1 "GND" H 4200 3690 59  0000 C TNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY1
+U 1 1 9BB82FD5
+P 4200 2900
+F 0 "#SUPPLY1" H 4200 2900 50  0001 C CNN
+F 1 "VCC" H 4200 3010 59  0000 C BNN
+F 2 "" H 4200 2900 50  0001 C CNN
+F 3 "" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:LPC11U14FHN33-lpc11u14f-dev-eagle-import U1
+U 1 1 70C280EF
+P 6400 2300
+F 0 "U1" H 4600 3600 70  0000 L BNN
+F 1 "LPC11U14FHN33" H 7700 3600 70  0000 L BNN
+F 2 "lpc11u14f-dev:SOT-HVQFN33" H 6400 2300 50  0001 C CNN
+F 3 "" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:USB_GND-lpc11u14f-dev-eagle-import U$1
+U 1 1 4D826FCC
+P 10000 2800
+F 0 "U$1" H 10000 2800 50  0001 C CNN
+F 1 "USB_GND" H 10000 2800 50  0001 C CNN
+F 2 "lpc11u14f-dev:USB-MICRO-SMD" H 10000 2800 50  0001 C CNN
+F 3 "" H 10000 2800 50  0001 C CNN
+	1    10000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:V_REG_LM1117SOT223-lpc11u14f-dev-eagle-import U2
+U 1 1 455EE6D3
+P 10000 3800
+F 0 "U2" H 10100 3500 70  0000 L BNN
+F 1 "V_REG_LM1117SOT223" H 10100 3400 70  0000 L BNN
+F 2 "lpc11u14f-dev:SOT223" H 10000 3800 50  0001 C CNN
+F 3 "" H 10000 3800 50  0001 C CNN
+	1    10000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND2
+U 1 1 C92C8F3B
+P 10000 5100
+F 0 "#GND2" H 10000 5100 50  0001 C CNN
+F 1 "GND" H 10000 5090 59  0000 C TNN
+F 2 "" H 10000 5100 50  0001 C CNN
+F 3 "" H 10000 5100 50  0001 C CNN
+	1    10000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND3
+U 1 1 E2B99DEF
+P 10700 3400
+F 0 "#GND3" H 10700 3400 50  0001 C CNN
+F 1 "GND" H 10700 3390 59  0000 C TNN
+F 2 "" H 10700 3400 50  0001 C CNN
+F 3 "" H 10700 3400 50  0001 C CNN
+	1    10700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY2
+U 1 1 7668A807
+P 10600 3800
+F 0 "#SUPPLY2" H 10600 3800 50  0001 C CNN
+F 1 "VCC" H 10600 3910 59  0000 C BNN
+F 2 "" H 10600 3800 50  0001 C CNN
+F 3 "" H 10600 3800 50  0001 C CNN
+	1    10600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:KX-7-lpc11u14f-dev-eagle-import Q1
+U 1 1 846EC630
+P 8500 3200
+F 0 "Q1" H 8650 3250 59  0000 L BNN
+F 1 "KX-7" H 8650 3100 59  0000 L BNN
+F 2 "lpc11u14f-dev:3.2X2.5_KX-7" H 8500 3200 50  0001 C CNN
+F 3 "" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:10NF-0603-50V-10%-lpc11u14f-dev-eagle-import C1
+U 1 1 3E09B9D6
+P 8500 3600
+F 0 "C1" H 8560 3715 70  0000 L BNN
+F 1 "10nF" H 8560 3515 70  0000 L BNN
+F 2 "lpc11u14f-dev:0603" H 8500 3600 50  0001 C CNN
+F 3 "" H 8500 3600 50  0001 C CNN
+	1    8500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:10NF-0603-50V-10%-lpc11u14f-dev-eagle-import C2
+U 1 1 7F2C5B13
+P 8700 3600
+F 0 "C2" H 8760 3715 70  0000 L BNN
+F 1 "10nF" H 8760 3515 70  0000 L BNN
+F 2 "lpc11u14f-dev:0603" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	1    8700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND4
+U 1 1 6AE2E73F
+P 8500 4000
+F 0 "#GND4" H 8500 4000 50  0001 C CNN
+F 1 "GND" H 8500 3990 59  0000 C TNN
+F 2 "" H 8500 4000 50  0001 C CNN
+F 3 "" H 8500 4000 50  0001 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:LED-GREEN0603-lpc11u14f-dev-eagle-import D1
+U 1 1 C4B9FB21
+P 8400 4900
+F 0 "D1" V 8265 4720 70  0000 L BNN
+F 1 "GREEN" V 8475 4720 70  0000 L TNN
+F 2 "lpc11u14f-dev:LED-0603" H 8400 4900 50  0001 C CNN
+F 3 "" H 8400 4900 50  0001 C CNN
+	1    8400 4900
+	0    -1   1    0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:LED-RED0603-lpc11u14f-dev-eagle-import D2
+U 1 1 92B97A64
+P 8400 5300
+F 0 "D2" V 8265 5120 70  0000 L BNN
+F 1 "RED" V 8475 5120 70  0000 L TNN
+F 2 "lpc11u14f-dev:LED-0603" H 8400 5300 50  0001 C CNN
+F 3 "" H 8400 5300 50  0001 C CNN
+	1    8400 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND5
+U 1 1 6CC61BFB
+P 8900 5600
+F 0 "#GND5" H 8900 5600 50  0001 C CNN
+F 1 "GND" H 8900 5590 59  0000 C TNN
+F 2 "" H 8900 5600 50  0001 C CNN
+F 3 "" H 8900 5600 50  0001 C CNN
+	1    8900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R1
+U 1 1 21C59822
+P 8000 4900
+F 0 "R1" H 8000 4960 70  0000 C BNN
+F 1 "0.05" H 8000 4840 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 8000 4900 50  0001 C CNN
+F 3 "" H 8000 4900 50  0001 C CNN
+	1    8000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R2
+U 1 1 BC5698C4
+P 8000 5300
+F 0 "R2" H 8000 5360 70  0000 C BNN
+F 1 "0.05" H 8000 5240 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 8000 5300 50  0001 C CNN
+F 3 "" H 8000 5300 50  0001 C CNN
+	1    8000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY3
+U 1 1 9BCD8B80
+P 7600 4800
+F 0 "#SUPPLY3" H 7600 4800 50  0001 C CNN
+F 1 "VCC" H 7600 4910 59  0000 C BNN
+F 2 "" H 7600 4800 50  0001 C CNN
+F 3 "" H 7600 4800 50  0001 C CNN
+	1    7600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R3
+U 1 1 1971F174
+P 3700 1500
+F 0 "R3" H 3700 1560 70  0000 C BNN
+F 1 "0.05" H 3700 1440 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:CONN_20-lpc11u14f-dev-eagle-import J1
+U 1 1 92202B0B
+P 1300 7200
+F 0 "J1" H 1300 9420 70  0000 L BNN
+F 1 "CONN_20" H 1300 7210 70  0000 L BNN
+F 2 "lpc11u14f-dev:1X20" H 1300 7200 50  0001 C CNN
+F 3 "" H 1300 7200 50  0001 C CNN
+	1    1300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:CONN_20-lpc11u14f-dev-eagle-import J2
+U 1 1 F1780596
+P 3400 7200
+F 0 "J2" H 3400 9420 70  0000 L BNN
+F 1 "CONN_20" H 3400 7210 70  0000 L BNN
+F 2 "lpc11u14f-dev:1X20" H 3400 7200 50  0001 C CNN
+F 3 "" H 3400 7200 50  0001 C CNN
+	1    3400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:621X1021021-lpc11u14f-dev-eagle-import J3
+U 1 1 83A3164B
+P 1800 3200
+F 0 "J3" H 1700 3550 42  0000 L BNN
+F 1 "621X1021021" H 1700 2800 42  0000 L BNN
+F 2 "lpc11u14f-dev:621X1021021" H 1800 3200 50  0001 C CNN
+F 3 "" H 1800 3200 50  0001 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND6
+U 1 1 6DBAC010
+P 800 3700
+F 0 "#GND6" H 800 3700 50  0001 C CNN
+F 1 "GND" H 800 3690 59  0000 C TNN
+F 2 "" H 800 3700 50  0001 C CNN
+F 3 "" H 800 3700 50  0001 C CNN
+	1    800  3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY4
+U 1 1 0A61E534
+P 1300 2800
+F 0 "#SUPPLY4" H 1300 2800 50  0001 C CNN
+F 1 "VCC" H 1300 2910 59  0000 C BNN
+F 2 "" H 1300 2800 50  0001 C CNN
+F 3 "" H 1300 2800 50  0001 C CNN
+	1    1300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:QTKEY-lpc11u14f-dev-eagle-import U$2
+U 1 1 6197D135
+P 8200 6600
+F 0 "U$2" H 8200 6600 50  0001 C CNN
+F 1 "QTKEY" H 8200 6600 50  0001 C CNN
+F 2 "lpc11u14f-dev:QTKEY" H 8200 6600 50  0001 C CNN
+F 3 "" H 8200 6600 50  0001 C CNN
+	1    8200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:QTKEY-lpc11u14f-dev-eagle-import U$3
+U 1 1 2AECCF64
+P 8200 6900
+F 0 "U$3" H 8200 6900 50  0001 C CNN
+F 1 "QTKEY" H 8200 6900 50  0001 C CNN
+F 2 "lpc11u14f-dev:QTKEY" H 8200 6900 50  0001 C CNN
+F 3 "" H 8200 6900 50  0001 C CNN
+	1    8200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:GND-lpc11u14f-dev-eagle-import #GND7
+U 1 1 2E923FEC
+P 8900 7100
+F 0 "#GND7" H 8900 7100 50  0001 C CNN
+F 1 "GND" H 8900 7090 59  0000 C TNN
+F 2 "" H 8900 7100 50  0001 C CNN
+F 3 "" H 8900 7100 50  0001 C CNN
+	1    8900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R4
+U 1 1 1AED8967
+P 7500 6600
+F 0 "R4" H 7500 6660 70  0000 C BNN
+F 1 "0.05" H 7500 6540 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 7500 6600 50  0001 C CNN
+F 3 "" H 7500 6600 50  0001 C CNN
+	1    7500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R5
+U 1 1 FF1767DD
+P 7500 6900
+F 0 "R5" H 7500 6960 70  0000 C BNN
+F 1 "0.05" H 7500 6840 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 7500 6900 50  0001 C CNN
+F 3 "" H 7500 6900 50  0001 C CNN
+	1    7500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:10NF-0603-50V-10%-lpc11u14f-dev-eagle-import C3
+U 1 1 57728DD8
+P 8300 6300
+F 0 "C3" H 8360 6415 70  0000 L BNN
+F 1 "10nF" H 8360 6215 70  0000 L BNN
+F 2 "lpc11u14f-dev:0603" H 8300 6300 50  0001 C CNN
+F 3 "" H 8300 6300 50  0001 C CNN
+	1    8300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:10NF-0603-50V-10%-lpc11u14f-dev-eagle-import C4
+U 1 1 FBF4862E
+P 8300 7200
+F 0 "C4" H 8360 7315 70  0000 L BNN
+F 1 "10nF" H 8360 7115 70  0000 L BNN
+F 2 "lpc11u14f-dev:0603" H 8300 7200 50  0001 C CNN
+F 3 "" H 8300 7200 50  0001 C CNN
+	1    8300 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY5
+U 1 1 64E24A77
+P 7000 6500
+F 0 "#SUPPLY5" H 7000 6500 50  0001 C CNN
+F 1 "VCC" H 7000 6610 59  0000 C BNN
+F 2 "" H 7000 6500 50  0001 C CNN
+F 3 "" H 7000 6500 50  0001 C CNN
+	1    7000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:1.0UF-1206-50V-10%-lpc11u14f-dev-eagle-import C5
+U 1 1 B9947190
+P 10500 4500
+F 0 "C5" H 10560 4615 70  0000 L BNN
+F 1 "1.0uF" H 10560 4415 70  0000 L BNN
+F 2 "lpc11u14f-dev:1206" H 10500 4500 50  0001 C CNN
+F 3 "" H 10500 4500 50  0001 C CNN
+	1    10500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:10NF-0603-50V-10%-lpc11u14f-dev-eagle-import C6
+U 1 1 E8FB7676
+P 10800 4500
+F 0 "C6" H 10860 4615 70  0000 L BNN
+F 1 "10nF" H 10860 4415 70  0000 L BNN
+F 2 "lpc11u14f-dev:0603" H 10800 4500 50  0001 C CNN
+F 3 "" H 10800 4500 50  0001 C CNN
+	1    10800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R6
+U 1 1 13AE6A52
+P 8700 2400
+F 0 "R6" H 8700 2460 70  0000 C BNN
+F 1 "0.05" H 8700 2340 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 8700 2400 50  0001 C CNN
+F 3 "" H 8700 2400 50  0001 C CNN
+	1    8700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R7
+U 1 1 41DD95DD
+P 8700 2300
+F 0 "R7" H 8700 2360 70  0000 C BNN
+F 1 "0.05" H 8700 2240 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 8700 2300 50  0001 C CNN
+F 3 "" H 8700 2300 50  0001 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R8
+U 1 1 1965FEF2
+P 10300 5700
+F 0 "R8" H 10300 5760 70  0000 C BNN
+F 1 "0.05" H 10300 5640 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 10300 5700 50  0001 C CNN
+F 3 "" H 10300 5700 50  0001 C CNN
+	1    10300 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R9
+U 1 1 8648B455
+P 10000 6200
+F 0 "R9" H 10000 6260 70  0000 C BNN
+F 1 "0.05" H 10000 6140 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 10000 6200 50  0001 C CNN
+F 3 "" H 10000 6200 50  0001 C CNN
+	1    10000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:0.05OHM-0603-1_5W-1%-lpc11u14f-dev-eagle-import R10
+U 1 1 BA9AF3F3
+P 10600 6700
+F 0 "R10" H 10600 6760 70  0000 C BNN
+F 1 "0.05" H 10600 6640 70  0000 C TNN
+F 2 "lpc11u14f-dev:0603" H 10600 6700 50  0001 C CNN
+F 3 "" H 10600 6700 50  0001 C CNN
+	1    10600 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:-PNP-SOT23-BCE-lpc11u14f-dev-eagle-import T1
+U 1 1 789B478A
+P 10500 6200
+F 0 "T1" H 10100 6500 59  0000 L BNN
+F 1 "-PNP-SOT23-BCE" H 10100 6400 59  0000 L BNN
+F 2 "lpc11u14f-dev:SOT23-BCE" H 10500 6200 50  0001 C CNN
+F 3 "" H 10500 6200 50  0001 C CNN
+	1    10500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpc11u14f-dev-rescue:VCC-lpc11u14f-dev-eagle-import #SUPPLY6
+U 1 1 137BDED3
+P 9700 5400
+F 0 "#SUPPLY6" H 9700 5400 50  0001 C CNN
+F 1 "VCC" H 9700 5510 59  0000 C BNN
+F 2 "" H 9700 5400 50  0001 C CNN
+F 3 "" H 9700 5400 50  0001 C CNN
+	1    9700 5400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
