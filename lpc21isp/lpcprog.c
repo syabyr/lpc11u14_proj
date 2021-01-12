@@ -195,9 +195,9 @@ static LPC_DEVICE_TYPE LPCtypes[] =
    { 0x097A802B, 0x00000000, 0, "11U13FBD48/201",                 24,   6,  6, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x297A802B, 0x00000000, 0, "11U13FBD48/201",                 24,   6,  6, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x0998802B, 0x00000000, 0, "11U14FHN33/201",                 32,   6,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
-   { 0x2998802B, 0x00000000, 0, "11U14(FHN,FHI)33/201",           32,   6,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
+   { 0x2998802B, 0x00000000, 0, "11U14(FHN,FHI)33/201",           32,   4,  8, 1024, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x0998802B, 0x00000000, 0, "11U14(FBD,FET)48/201",           32,   6,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
-   { 0x2998802B, 0x00000000, 0, "11U14(FBD,FET)48/201",           32,   6,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
+   { 0x2998802B, 0x00000000, 0, "11U14(FBD,FET)48/201",           32,   4,  8, 1024, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x2972402B, 0x00000000, 0, "11U23FBD48/301",                 24,   8,  6, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x2988402B, 0x00000000, 0, "11U24(FHI33,FBD48,FET48)/301",   32,   8,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
    { 0x2980002B, 0x00000000, 0, "11U24(FHN33,FBD48,FBD64)/401",   32,  10,  8, 4096, SectorTable_11xx, CHIP_VARIANT_LPC11XX }, /* From UM10462 Rev. 5 -- 20 Nov 2013 */
@@ -402,6 +402,8 @@ static int SendAndVerify(ISP_ENVIRONMENT *IspEnvironment, const char *Command,
 
     SendComPort(IspEnvironment, Command);
     ReceiveComPort(IspEnvironment, AnswerBuffer, AnswerLength - 1, &realsize, 2, 5000);
+
+    printf("debug send:%s answer:%s\r\n",Command,AnswerBuffer);
 
     cmdlen = strlen(Command);
     FormattedCommand = (char *)alloca(cmdlen+1);
@@ -1005,11 +1007,13 @@ int NxpDownload(ISP_ENVIRONMENT *IspEnvironment)
     {
         Sector = 0;
         SectorStart = 0;
+        DebugPrintf(2, "start programming at Sector 0.\n");
     }
     else
     {
         SectorStart = LPCtypes[IspEnvironment->DetectedDevice].SectorTable[0];
         Sector = 1;
+        DebugPrintf(2, "start programming at Sector 1.\n");
     }
 
     if (IspEnvironment->WipeDevice == 1)
@@ -1211,6 +1215,7 @@ int NxpDownload(ISP_ENVIRONMENT *IspEnvironment)
                     CopyLength += ((45 * 4) - (CopyLength % (45 * 4)));
                 }
             }
+            DebugPrintf(2,"debug chipvariant:%d\r\n",LPCtypes[IspEnvironment->DetectedDevice].ChipVariant);
 
             sprintf(tmpString, "W %ld %ld\r\n", ReturnValueLpcRamBase(IspEnvironment), CopyLength);
 
@@ -1503,6 +1508,7 @@ int NxpDownload(ISP_ENVIRONMENT *IspEnvironment)
                 {
                     CopyLength = 8192;
                 }
+                CopyLength = 1024;
                 if (CopyLength > (unsigned)LPCtypes[IspEnvironment->DetectedDevice].MaxCopySize)
                 {
                     CopyLength = LPCtypes[IspEnvironment->DetectedDevice].MaxCopySize;
@@ -1600,7 +1606,7 @@ int NxpDownload(ISP_ENVIRONMENT *IspEnvironment)
             DebugPrintf(1, "Internal Error %s %d\n", __FILE__, __LINE__);
             exit(1);
         }
-
+        DebugPrintf(1,"goto %d.\r\n",IspEnvironment->StartAddress & ~1);
         SendComPort(IspEnvironment, tmpString); //goto 0 : run this fresh new downloaded code code
         if ( (IspEnvironment->BinaryOffset <  ReturnValueLpcRamStart(IspEnvironment))
            ||(IspEnvironment->BinaryOffset >= ReturnValueLpcRamStart(IspEnvironment)+(LPCtypes[IspEnvironment->DetectedDevice].RAMSize*1024)))
