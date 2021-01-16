@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x20 J2
+U 1 1 60095AD5
+P 1050 2400
+F 0 "J2" H 968 1175 50  0000 C CNN
+F 1 "Conn_01x20" H 968 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1050 2400 50  0001 C CNN
+F 3 "~" H 1050 2400 50  0001 C CNN
+	1    1050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J3
+U 1 1 60098054
+P 2900 2400
+F 0 "J3" H 2818 1175 50  0000 C CNN
+F 1 "Conn_01x20" H 2818 1266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2900 2400 50  0001 C CNN
+F 3 "~" H 2900 2400 50  0001 C CNN
+	1    2900 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 1400 1250 1400
+Wire Wire Line
+	1300 1500 1250 1500
+Wire Wire Line
+	1300 1600 1250 1600
+Wire Wire Line
+	1300 1700 1250 1700
+Wire Wire Line
+	1300 1800 1250 1800
+Wire Wire Line
+	1300 1900 1250 1900
+Wire Wire Line
+	1300 2000 1250 2000
+Wire Wire Line
+	1300 2100 1250 2100
+Wire Wire Line
+	1300 2200 1250 2200
+Wire Wire Line
+	1300 2300 1250 2300
+Wire Wire Line
+	1300 2400 1250 2400
+Wire Wire Line
+	1300 2500 1250 2500
+Wire Wire Line
+	1300 2600 1250 2600
+Wire Wire Line
+	1300 2700 1250 2700
+Wire Wire Line
+	1300 2800 1250 2800
+Wire Wire Line
+	1300 2900 1250 2900
+Wire Wire Line
+	1300 3000 1250 3000
+Wire Wire Line
+	1300 3100 1250 3100
+Wire Wire Line
+	1300 3200 1250 3200
+Wire Wire Line
+	1300 3300 1250 3300
+Wire Wire Line
+	3150 3300 3100 3300
+Wire Wire Line
+	3150 3200 3100 3200
+Wire Wire Line
+	3150 3100 3100 3100
+Wire Wire Line
+	3150 3000 3100 3000
+Wire Wire Line
+	3100 2900 3150 2900
+Wire Wire Line
+	3150 2800 3100 2800
+Wire Wire Line
+	3150 2700 3100 2700
+Wire Wire Line
+	3150 2600 3100 2600
+Wire Wire Line
+	3150 2500 3100 2500
+Wire Wire Line
+	3150 2400 3100 2400
+Wire Wire Line
+	3150 2300 3100 2300
+Wire Wire Line
+	3150 2200 3100 2200
+Wire Wire Line
+	3150 2100 3100 2100
+Wire Wire Line
+	3150 2000 3100 2000
+Wire Wire Line
+	3150 1900 3100 1900
+Wire Wire Line
+	3150 1800 3100 1800
+Wire Wire Line
+	3150 1700 3100 1700
+Wire Wire Line
+	3150 1600 3100 1600
+Wire Wire Line
+	3150 1500 3100 1500
+Wire Wire Line
+	3150 1400 3100 1400
+$Comp
+L power:GND #PWR0117
+U 1 1 600AA7B4
+P 1300 1400
+F 0 "#PWR0117" H 1300 1150 50  0001 C CNN
+F 1 "GND" V 1305 1272 50  0000 R CNN
+F 2 "" H 1300 1400 50  0001 C CNN
+F 3 "" H 1300 1400 50  0001 C CNN
+	1    1300 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 600AB75B
+P 3150 1400
+F 0 "#PWR0118" H 3150 1150 50  0001 C CNN
+F 1 "GND" V 3155 1272 50  0000 R CNN
+F 2 "" H 3150 1400 50  0001 C CNN
+F 3 "" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 600ABBCD
+P 1300 1500
+F 0 "#PWR0119" H 1300 1250 50  0001 C CNN
+F 1 "GND" V 1305 1372 50  0000 R CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "" H 1300 1500 50  0001 C CNN
+	1    1300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 600ACD6D
+P 1300 3200
+F 0 "#PWR0120" H 1300 2950 50  0001 C CNN
+F 1 "GND" V 1305 3072 50  0000 R CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 600AD201
+P 1300 3300
+F 0 "#PWR0121" H 1300 3050 50  0001 C CNN
+F 1 "GND" V 1305 3172 50  0000 R CNN
+F 2 "" H 1300 3300 50  0001 C CNN
+F 3 "" H 1300 3300 50  0001 C CNN
+	1    1300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 600AD4FD
+P 3150 3300
+F 0 "#PWR0122" H 3150 3050 50  0001 C CNN
+F 1 "GND" V 3155 3172 50  0000 R CNN
+F 2 "" H 3150 3300 50  0001 C CNN
+F 3 "" H 3150 3300 50  0001 C CNN
+	1    3150 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 600B2EC0
+P 1300 1600
+F 0 "#PWR0123" H 1300 1450 50  0001 C CNN
+F 1 "+3V3" V 1315 1728 50  0000 L CNN
+F 2 "" H 1300 1600 50  0001 C CNN
+F 3 "" H 1300 1600 50  0001 C CNN
+	1    1300 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0124
+U 1 1 600B3A4A
+P 1300 3100
+F 0 "#PWR0124" H 1300 2950 50  0001 C CNN
+F 1 "+3V3" V 1315 3228 50  0000 L CNN
+F 2 "" H 1300 3100 50  0001 C CNN
+F 3 "" H 1300 3100 50  0001 C CNN
+	1    1300 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0125
+U 1 1 600B3FA2
+P 3150 3200
+F 0 "#PWR0125" H 3150 3050 50  0001 C CNN
+F 1 "+3V3" V 3165 3328 50  0000 L CNN
+F 2 "" H 3150 3200 50  0001 C CNN
+F 3 "" H 3150 3200 50  0001 C CNN
+	1    3150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0126
+U 1 1 600B4BE5
+P 3150 1500
+F 0 "#PWR0126" H 3150 1350 50  0001 C CNN
+F 1 "+3V3" V 3165 1628 50  0000 L CNN
+F 2 "" H 3150 1500 50  0001 C CNN
+F 3 "" H 3150 1500 50  0001 C CNN
+	1    3150 1500
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 1700 2    50   Input ~ 0
+VBUS
+Text GLabel 1300 3000 2    50   Input ~ 0
+VBUS
+Text GLabel 3150 1600 2    50   Input ~ 0
+VBUS
+Text GLabel 3150 3100 2    50   Input ~ 0
+VBUS
+Text GLabel 1300 1800 2    50   Input ~ 0
+PIO0_15
+Text GLabel 1300 1900 2    50   Input ~ 0
+PIO0_16
+Text GLabel 1300 2000 2    50   Input ~ 0
+PIO0_23
+Text GLabel 1300 2100 2    50   Input ~ 0
+PIO1_15
+Text GLabel 1300 2200 2    50   Input ~ 0
+PIO0_17
+Text GLabel 1300 2300 2    50   Input ~ 0
+PIO0_18
+Text GLabel 1300 2400 2    50   Input ~ 0
+PIO0_19
+Text GLabel 1300 2500 2    50   Input ~ 0
+PIO1_19
+Text GLabel 1300 2600 2    50   Input ~ 0
+PIO0_0
+Text GLabel 1300 2700 2    50   Input ~ 0
+PIO0_1
+Text GLabel 1300 2800 2    50   Input ~ 0
+PIO0_20
+Text GLabel 1300 2900 2    50   Input ~ 0
+PIO0_2
+Text GLabel 3150 1700 2    50   Input ~ 0
+PIO0_14
+Text GLabel 3150 1800 2    50   Input ~ 0
+PIO0_13
+Text GLabel 3150 1900 2    50   Input ~ 0
+PIO0_12
+Text GLabel 3150 2000 2    50   Input ~ 0
+PIO0_11
+Text GLabel 3150 2100 2    50   Input ~ 0
+PIO0_22
+Text GLabel 3150 2200 2    50   Input ~ 0
+PIO0_10
+Text GLabel 3150 2300 2    50   Input ~ 0
+PIO0_9
+Text GLabel 3150 2400 2    50   Input ~ 0
+PIO0_8
+Text GLabel 3150 2500 2    50   Input ~ 0
+PIO0_7
+Text GLabel 3150 2600 2    50   Input ~ 0
+PIO0_6
+Text GLabel 3150 2700 2    50   Input ~ 0
+PIO0_21
+Text GLabel 3150 2800 2    50   Input ~ 0
+PIO0_5
+Text GLabel 3150 2900 2    50   Input ~ 0
+PIO0_4
+Text GLabel 3150 3000 2    50   Input ~ 0
+PIO0_3
+$EndSCHEMATC
